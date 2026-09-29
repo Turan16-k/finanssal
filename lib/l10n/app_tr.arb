@@ -1,0 +1,272 @@
+{
+  "@@locale": "tr",
+  "appTitle": "Fraktal",
+  "appTagline": "Portföy takibi ve fraktal analiz laboratuvarı",
+  "navMarkets": "Piyasalar",
+  "navPortfolio": "Portföy",
+  "navLab": "Laboratuvar",
+  "navSettings": "Ayarlar",
+  "retry": "Tekrar dene",
+  "errorGeneric": "Bir şeyler ters gitti. Bağlantınızı kontrol edip tekrar deneyin.",
+  "cancel": "Vazgeç",
+  "save": "Kaydet",
+  "delete": "Sil",
+  "confirm": "Onayla",
+  "close": "Kapat",
+  "continueLabel": "Devam",
+  "demoModeBanner": "Demo modu: piyasa verileri sentetiktir, kayıtlar yalnızca bu cihazda tutulur.",
+  "disclaimerTitle": "Önemli bilgilendirme",
+  "disclaimerBody": "Fraktal bir eğitim ve kişisel takip aracıdır. Uygulamadaki hiçbir içerik, hesaplama, simülasyon veya optimizasyon sonucu yatırım danışmanlığı ya da al-sat tavsiyesi değildir. Monte Carlo, Markowitz ve backtest sonuçları geçmiş verilere dayanan olasılık modelleridir; gelecekteki getirileri garanti etmez. Yatırım kararlarınızı kendi risk ve getiri tercihlerinize göre, gerekirse yetkili kuruluşlardan destek alarak veriniz.",
+  "disclaimerShort": "Yatırım tavsiyesi değildir.",
+  "disclaimerAccept": "Okudum, anladım ve kabul ediyorum",
+  "dataSources": "Veri kaynakları",
+  "dataSourcesBody": "Döviz, gram altın ve BIST 100 endeksi: TCMB EVDS (gün sonu). Kripto paralar: CoinGecko. Hisse senedi ve yatırım fonu fiyatları lisans gerektirdiği için uygulamada yayınlanmaz; bu varlıklar için kendi fiyatınızı girersiniz. Veriler gecikmeli olabilir ve hatalar içerebilir.",
+  "typeFx": "Döviz",
+  "typeGold": "Altın",
+  "typeIndex": "Endeks",
+  "typeCrypto": "Kripto",
+  "typeStocksFunds": "Hisse & Fon",
+  "manualPriceHint": "Hisse ve fon fiyatları lisans gerektirdiği için gösterilmez. Portföy değerlemesi için kendi güncel fiyatınızı girebilirsiniz.",
+  "enterPrice": "Fiyat gir",
+  "yourPrice": "Sizin fiyatınız",
+  "sourceLabel": "Kaynak: {source}",
+  "@sourceLabel": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "asOf": "{date} itibarıyla",
+  "@asOf": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "range1m": "1A",
+  "range3m": "3A",
+  "range1y": "1Y",
+  "range5y": "5Y",
+  "analyticsTitle": "Fraktal analiz",
+  "hurst": "Hurst üssü",
+  "regimeTrending": "Trend / kalıcı hareket",
+  "regimeRandomWalk": "Rastgele yürüyüş",
+  "regimeMeanReverting": "Ortalamaya dönüş",
+  "volatility1y": "Yıllık volatilite",
+  "return1y": "1 yıllık getiri",
+  "maxDrawdown": "Maks. düşüş",
+  "createAlert": "Alarm kur",
+  "alertAbove": "Fiyat şunun üzerine çıkarsa",
+  "alertBelow": "Fiyat şunun altına inerse",
+  "alertPctUp": "Günlük artış en az (%)",
+  "alertPctDown": "Günlük düşüş en az (%)",
+  "priceThreshold": "Fiyat eşiği",
+  "percentThreshold": "Yüzde eşiği",
+  "alertCreated": "Alarm kuruldu",
+  "alertEodNote": "Alarmlar gün sonu verisiyle, veri güncellendiğinde kontrol edilir.",
+  "alertsTitle": "Fiyat alarmları",
+  "noAlerts": "Henüz alarm yok. Bir varlığın detayından alarm kurabilirsiniz.",
+  "alertsNeedBackend": "Alarmlar için bulut hesabı gerekir; demo modunda kullanılamaz.",
+  "lastTriggered": "son: {date}",
+  "@lastTriggered": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolios": "Portföylerim",
+  "newPortfolio": "Yeni portföy",
+  "portfolioName": "Portföy adı",
+  "noPortfolios": "Henüz portföyünüz yok. İlk portföyünüzü oluşturup işlemlerinizi ekleyin.",
+  "marketValue": "Piyasa değeri",
+  "costBasis": "Maliyet",
+  "unrealizedPnl": "Gerçekleşmemiş K/Z",
+  "realizedPnl": "Gerçekleşmiş K/Z",
+  "dividends": "Temettü",
+  "positions": "Pozisyonlar",
+  "transactions": "İşlemler",
+  "noTransactions": "Henüz işlem yok.",
+  "addTransaction": "İşlem ekle",
+  "txBuy": "Alış",
+  "txSell": "Satış",
+  "txDividend": "Temettü",
+  "txFee": "Ücret",
+  "txDeposit": "Para yatırma",
+  "txWithdraw": "Para çekme",
+  "instrument": "Varlık",
+  "selectInstrument": "Bir varlık seçin",
+  "quantity": "Adet",
+  "unitPrice": "Birim fiyat",
+  "amount": "Tutar",
+  "fee": "Komisyon",
+  "note": "Not",
+  "invalidNumber": "Geçerli bir sayı girin",
+  "priceMissing": "Fiyatı girilmemiş varlıklar maliyetinden değerlendi.",
+  "sendToLab": "Laboratuvarda analiz et",
+  "deletePortfolioConfirm": "\"{name}\" portföyü ve tüm işlemleri silinsin mi?",
+  "@deletePortfolioConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteTransactionConfirm": "Bu işlem silinsin mi?",
+  "ledgerError": "İşlem geçmişi tutarsız: {message}",
+  "@ledgerError": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "avgCost": "ort. {value}",
+  "@avgCost": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "quantityShort": "{qty} adet",
+  "@quantityShort": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "labTitle": "Analiz laboratuvarı",
+  "labIntro": "Varlıkları seçip ağırlıkları ayarlayın. Tüm hesaplamalar cihazınızda yapılır.",
+  "labEmpty": "Başlamak için en az bir varlık seçin.",
+  "assets": "Varlıklar",
+  "selectAssets": "Varlık seç",
+  "equalWeights": "Eşit ağırlık",
+  "parameters": "Parametreler",
+  "horizonDays": "Ufuk: {days} işlem günü",
+  "@horizonDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "simulationsCount": "{count} simülasyon",
+  "@simulationsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysShort": "{days}g",
+  "@daysShort": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "riskFree": "Risksiz faiz (yıllık)",
+  "jumps": "Kriz sıçramaları (Merton)",
+  "jumpsHint": "Ani şokları modele ekler; kuyruk riskini daha gerçekçi gösterir.",
+  "initialCapital": "Başlangıç sermayesi",
+  "run": "Çalıştır",
+  "running": "Hesaplanıyor…",
+  "tabSimulation": "Simülasyon",
+  "tabFrontier": "Optimizasyon",
+  "tabBacktest": "Backtest",
+  "tabFractal": "Fraktal",
+  "dataWindow": "{days} ortak gün · {start} – {end}",
+  "@dataWindow": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "notEnoughHistory": "Seçili varlıkların ortak geçmişi yetersiz (en az 60 gün gerekli).",
+  "expectedValue": "Beklenen değer",
+  "median": "Medyan",
+  "var95": "VaR %95",
+  "var95Hint": "%95 olasılıkla kayıp bu tutarı aşmaz",
+  "cvar95": "CVaR %95",
+  "cvar95Hint": "En kötü %5 senaryoda ortalama kayıp",
+  "probLoss": "Zarar olasılığı",
+  "percentileBand": "%5 – %95 aralığı",
+  "band25_75": "%25–%75",
+  "band5_95": "%5–%95",
+  "optimalWeights": "Maks. Sharpe",
+  "minVariance": "Min. varyans",
+  "currentPortfolio": "Mevcut",
+  "applyWeights": "Ağırlıkları uygula",
+  "frontierAxes": "Yatay: yıllık volatilite · Dikey: yıllık beklenen getiri",
+  "optimizerNote": "Açığa satış yok; ağırlıklar %0–%100. Geçmiş ortalamalar geleceği yansıtmayabilir.",
+  "needTwoAssets": "Optimizasyon için en az 2 varlık seçin.",
+  "sharpe": "Sharpe",
+  "expectedReturnShort": "getiri",
+  "volatilityShort": "vol",
+  "totalReturn": "Toplam getiri",
+  "cagr": "Yıllık getiri (CAGR)",
+  "backtestNote": "Günlük yeniden dengelenen sabit ağırlıklı portföy; komisyon ve vergi dahil değildir.",
+  "hurstExplainer": "Hurst üssü (R/S): H > 0,55 trend/kalıcılık, H ≈ 0,5 rastgele yürüyüş, H < 0,45 ortalamaya dönüş eğilimi.",
+  "correlation": "Korelasyon",
+  "labDisclaimer": "Sonuçlar geçmiş veriye dayalı olasılık modelleridir; gelecekteki getiriyi garanti etmez ve yatırım tavsiyesi değildir.",
+  "bulletinTitle": "Bülten analizi (AI)",
+  "bulletinHint": "Finansal bir haber veya bülten metni yapıştırın",
+  "aiNotice": "Metin analiz için Google Gemini'ye gönderilir; kişisel bilgi eklemeyin.",
+  "analyze": "Analiz et",
+  "sentiment": "Duygu skoru",
+  "useSentiment": "Duygu skorunu simülasyona uygula",
+  "quotaExceeded": "Günlük AI kullanım sınırına ulaştınız, yarın tekrar deneyin.",
+  "settingsTitle": "Ayarlar",
+  "account": "Hesap",
+  "guestAccount": "Misafir hesap",
+  "guestAccountHint": "Verileriniz bu cihazdaki oturuma bağlı. Kaybetmemek için e-postanızı bağlayın.",
+  "linkEmail": "E-posta bağla",
+  "signInExisting": "Mevcut hesaba giriş",
+  "signInWarning": "Giriş yaparsanız bu cihazdaki misafir verileri görünmez olur. Önce e-posta bağlamanız önerilir.",
+  "email": "E-posta",
+  "code": "Doğrulama kodu",
+  "sendCode": "Kod gönder",
+  "verify": "Doğrula",
+  "codeSent": "{email} adresine 6 haneli kod gönderildi.",
+  "@codeSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "invalidEmail": "Geçerli bir e-posta girin",
+  "emailVerified": "E-posta doğrulandı",
+  "signOut": "Çıkış yap",
+  "deleteAccount": "Hesabı sil",
+  "deleteAccountConfirm": "Tüm portföyleriniz, işlemleriniz ve alarmlarınız sunucudan kalıcı olarak silinecek. Bu işlem geri alınamaz.",
+  "accountDeleted": "Hesabınız silindi.",
+  "dangerZone": "Tehlikeli bölge",
+  "appearance": "Görünüm",
+  "themeSystem": "Sistem",
+  "themeLight": "Açık",
+  "themeDark": "Koyu",
+  "language": "Dil",
+  "languageSystem": "Cihaz dili",
+  "security": "Güvenlik",
+  "biometricLock": "Biyometrik kilit",
+  "biometricReason": "Fraktal'ı açmak için kimliğinizi doğrulayın",
+  "biometricUnavailable": "Bu cihazda biyometrik doğrulama kullanılamıyor.",
+  "unlock": "Kilidi aç",
+  "legal": "Yasal",
+  "privacyPolicy": "Gizlilik politikası",
+  "terms": "Kullanım koşulları",
+  "openSourceLicenses": "Açık kaynak lisansları"
+}
