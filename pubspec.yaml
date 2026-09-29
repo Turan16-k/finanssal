@@ -1,0 +1,14 @@
+name: quant_dart
+description: >-
+  Fraktal uygulamasının cihaz üstü hesaplama motoru: Hurst (R/S), Monte Carlo
+  (GBM + Merton sıçramaları), Markowitz maks-Sharpe ve backtest. Saf Dart,
+  Flutter bağımlılığı yok; Isolate içinde çalıştırılmak üzere tasarlandı.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6

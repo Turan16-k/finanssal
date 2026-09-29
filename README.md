@@ -1,50 +1,39 @@
-# Fraktal
+<!--
+This README describes the package. If you publish this package to pub.dev,
+this README's contents appear on the landing page for your package.
 
-Portföy takibi ve fraktal analiz laboratuvarı — iOS & Android (Flutter), Supabase + Firebase,
-tamamen ücretsiz katmanlarla çalışan mimari.
+For information about how to write a good package README, see the guide for
+[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
 
-```
-apps/mobile/            Flutter uygulaması (com.fraktal)
-packages/quant_dart/    Cihaz üstü hesaplama motoru: Hurst, Monte Carlo, Markowitz, backtest, portföy defteri
-supabase/               Postgres şeması + RLS (migrations), seed, Edge Functions, şema testleri
-pipelines/              Python veri işleri (TCMB EVDS, CoinGecko) — GitHub Actions cron
-research/               Orijinal Python/Streamlit prototipi + Dart eşdeğerlik fixture üreticisi
-docs/                   Mimari, kurulum, yasal metin taslakları
-```
+For general information about developing packages, see the Dart guide for
+[creating packages](https://dart.dev/tools/pub/create-packages)
+and the Flutter guide for
+[developing packages and plugins](https://flutter.dev/to/develop-packages).
+-->
 
-## Hızlı başlangıç (arka uç olmadan — demo modu)
+TODO: Put a short description of the package here that helps potential users
+know whether this package might be useful for them.
 
-```bash
-cd apps/mobile
-flutter pub get
-flutter run            # Supabase bilgisi yoksa sentetik veriyle demo modunda açılır
-```
+## Features
 
-Gerçek verilerle çalıştırmak ve yayına hazırlamak için: [docs/setup.md](docs/setup.md).
+TODO: List what your package can do. Maybe include images, gifs, or videos.
 
-## Testler
+## Getting started
 
-```bash
-# Hesaplama motoru (Python/SciPy ile eşdeğerlik testleri dahil)
-cd packages/quant_dart && dart test
+TODO: List prerequisites and provide or point to information on how to
+start using the package.
 
-# Uygulama
-cd apps/mobile && flutter analyze && flutter test
+## Usage
 
-# Pipeline + Supabase şeması/RLS (gömülü Postgres, Docker gerekmez)
-python3 -m venv .venv && .venv/bin/pip install -r pipelines/requirements-dev.txt
-.venv/bin/python -m pytest pipelines/tests supabase/tests research/fraktal_prototype/tests
+TODO: Include short and useful examples for package users. Add longer examples
+to `/example` folder.
 
-# Edge Functions tip kontrolü
-deno check supabase/functions/*/index.ts
+```dart
+const like = 'sample';
 ```
 
-## Mimari özeti
+## Additional information
 
-Ayrıntılar: [docs/architecture.md](docs/architecture.md).
-
-- **Veri**: yalnızca lisans gerektirmeyen kaynaklar (EVDS, CoinGecko). BIST hisse ve fon fiyatları
-  yayınlanmaz; kullanıcı kendi fiyatını girer.
-- **Hesaplama**: kullanıcıya özel analizler cihazda (`quant_dart`, Isolate içinde) — sunucu maliyeti yok.
-- **Sunucu**: Supabase (Postgres + RLS, Auth, Edge Functions). Toplu işler GitHub Actions'ta.
-- **Firebase**: yalnızca ücretsiz Spark planı servisleri (FCM, Crashlytics, Analytics, App Check, Remote Config).
+TODO: Tell users more about the package: where to find more information, how to
+contribute to the package, how to file issues, what response they can expect
+from the package authors, and more.
