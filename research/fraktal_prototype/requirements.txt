@@ -1,0 +1,17 @@
+# Proje 8 - Fraktal Piyasa Analizi Destekli Portföy Simülasyonu
+streamlit>=1.30
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+scipy>=1.11          # Markowitz optimizasyonu (yoksa rastgele aramaya düşer)
+
+# Gerçek fiyat verisi (Yahoo Finance — BIST hisseleri + altın, anahtar gerekmez)
+yfinance>=0.2.40
+requests>=2.31       # TCMB EVDS (opsiyonel, EVDS_API_KEY ile)
+
+# Sentiment (opsiyonel; yoksa sözlük-tabanlı mock kullanılır)
+transformers>=4.40
+torch>=2.2
+
+# Gemini/LangChain (opsiyonel; GEMINI_API_KEY yoksa mock özetleme)
+google-generativeai>=0.5
