@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=8
+scipy>=1.11
+pgserver>=0.1
+psycopg[binary]>=3.1
