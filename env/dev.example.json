@@ -1,0 +1,7 @@
+{
+  "FLAVOR": "dev",
+  "SUPABASE_URL": "https://<proje-ref>.supabase.co",
+  "SUPABASE_PUBLISHABLE_KEY": "<sb_publishable_... veya anon key>",
+  "PRIVACY_POLICY_URL": "https://<kullanici>.github.io/fraktal/privacy",
+  "TERMS_URL": "https://<kullanici>.github.io/fraktal/terms"
+}
